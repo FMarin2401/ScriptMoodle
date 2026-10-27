@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Entorno virtual (se recrea con `uv sync`)
+.venv
+
+# Secretos y estado personal: NUNCA se suben
+.env
+avisados.json
+*.tmp

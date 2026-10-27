@@ -1,0 +1,14 @@
+[project]
+name = "moodle-avisos"
+version = "0.1.0"
+description = "Avisos de tareas de Moodle (Ibero León) por notificación al celular y PC"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "tzdata>=2026.5",
+]
+
+[tool.uv]
+package = false
